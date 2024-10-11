@@ -26,7 +26,7 @@
                         repository.AddProgram();
                         break;
                     case "2":
-                        repository.GetAllProgram();
+                        Console.WriteLine(repository.GetAllProgram());
                         break;
                     case "3":
                         repository.UpdateProgram();
@@ -35,7 +35,7 @@
                         repository.DeleteProgram();
                         break;
                     case "5":
-                        repository.GetProgramById();
+                        Console.WriteLine(repository.GetProgramById());
                         break;
                     case "6":
                         Console.WriteLine("Program existing Thank you");
